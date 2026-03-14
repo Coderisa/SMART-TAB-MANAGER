@@ -1,0 +1,107 @@
+/* src/components/TabList.css */
+.tab-actions {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.tab-actions button {
+  padding: 8px 12px;
+  border: 1px solid #dadce0;
+  border-radius: 4px;
+  background: white;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.tab-actions .primary-btn {
+  background: #1a73e8;
+  color: white;
+  border: none;
+}
+
+.tab-actions .secondary-btn {
+  background: white;
+  color: #1a73e8;
+  border: 1px solid #1a73e8;
+}
+
+.tab-actions button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.tab-item {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  border-bottom: 1px solid #f0f0f0;
+  cursor: pointer;
+}
+
+.tab-item:hover {
+  background: #f5f5f5;
+}
+
+.tab-favicon {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+
+.tab-info {
+  flex: 1;
+  overflow: hidden;
+}
+
+.tab-title {
+  font-size: 13px;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.tab-url {
+  font-size: 11px;
+  color: #5f6368;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.tab-close {
+  padding: 4px 8px;
+  background: none;
+  border: none;
+  color: #ea4335;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.tab-close:hover {
+  background: #feeae9;
+  border-radius: 4px;
+}
+.tab-search {
+  width: 100%;
+  padding: 8px 12px;
+  margin: 8px 0 12px 0;
+  border: 1px solid #dadce0;
+  border-radius: 20px;
+  font-size: 13px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.tab-search:focus {
+  border-color: #1a73e8;
+  box-shadow: 0 0 0 2px rgba(26,115,232,0.2);
+}
+
+.no-tabs {
+  text-align: center;
+  color: #5f6368;
+  padding: 16px;
+  font-size: 13px;
+}

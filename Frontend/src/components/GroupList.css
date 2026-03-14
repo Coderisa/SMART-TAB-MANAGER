@@ -1,0 +1,109 @@
+/* src/components/GroupList.css */
+
+.group-list {
+  padding: 8px 0;
+}
+
+.group-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.group-actions h3 {
+  margin: 0;
+  font-size: 14px;
+}
+
+.ungroup-all-btn {
+  padding: 4px 8px;
+  background: #ea4335;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.ungroup-all-btn:hover {
+  background: #d33426;
+}
+
+.group-item {
+  margin-bottom: 16px;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.group-header {
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  background: #f1f3f4;
+  font-weight: 500;
+}
+
+.group-color-indicator {
+  width: 12px;
+  height: 12px;
+  border-radius: 3px;
+  margin-right: 8px;
+}
+
+.group-color-indicator.grey { background-color: #e0e0e0; }
+.group-color-indicator.blue { background-color: #e3f2fd; }
+.group-color-indicator.red { background-color: #ffebee; }
+.group-color-indicator.yellow { background-color: #fff9c4; }
+.group-color-indicator.green { background-color: #e8f5e9; }
+.group-color-indicator.pink { background-color: #fce4ec; }
+.group-color-indicator.purple { background-color: #f3e5f5; }
+.group-color-indicator.cyan { background-color: #e0f7fa; }
+
+.group-title {
+  flex: 1;
+}
+
+.group-count {
+  color: #5f6368;
+  margin-right: 8px;
+}
+
+.ungroup-btn {
+  padding: 2px 6px;
+  background: #ea4335;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 11px;
+}
+
+.ungroup-btn:hover {
+  background: #d33426;
+}
+
+.group-tabs {
+  padding: 8px 12px;
+}
+
+.group-tab-item {
+  display: flex;
+  align-items: center;
+  padding: 4px 0;
+  font-size: 12px;
+}
+
+.group-tab-item .tab-favicon {
+  width: 14px;
+  height: 14px;
+  margin-right: 6px;
+}
+
+.group-tab-item .tab-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 200px;
+}

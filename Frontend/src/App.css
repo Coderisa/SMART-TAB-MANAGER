@@ -1,0 +1,63 @@
+/* src/App.css */
+body {
+  width: 400px;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.container {
+  padding: 16px;
+}
+
+.header h1 {
+  font-size: 18px;
+  margin: 0 0 12px 0;
+  color: #1a73e8;
+}
+
+.tabs-nav {
+  display: flex;
+  gap: 4px;
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 16px;
+}
+
+.tabs-nav button {
+  padding: 8px 12px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 14px;
+  color: #5f6368;
+  border-bottom: 2px solid transparent;
+}
+
+.tabs-nav button.active {
+  color: #1a73e8;
+  border-bottom-color: #1a73e8;
+}
+
+.content {
+  min-height: 300px;
+}
+
+.loader {
+  text-align: center;
+  padding: 20px;
+  color: #5f6368;
+}
+.close-btn {
+  background: transparent;
+  border: none;
+  color: #5f6368;
+  font-size: 18px;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 4px;
+  line-height: 1;
+}
+
+.close-btn:hover {
+  background: rgba(0,0,0,0.1);
+  color: #202124;
+}

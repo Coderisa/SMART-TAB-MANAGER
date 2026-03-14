@@ -1,0 +1,74 @@
+/* src/components/StatsDashboard.css */
+.stats-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.stats-header h2 {
+  font-size: 16px;
+  margin: 0;
+}
+
+.sync-btn {
+  padding: 6px 12px;
+  background: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.sync-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.stat-card {
+  background: #f1f3f4;
+  padding: 12px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.stat-value {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1a73e8;
+}
+
+.stat-label {
+  font-size: 12px;
+  color: #5f6368;
+}
+
+.insights-section {
+  background: #e8f0fe;
+  padding: 12px;
+  border-radius: 8px;
+  margin-top: 16px;
+}
+
+.insights-section h3 {
+  margin: 0 0 8px 0;
+  font-size: 14px;
+}
+
+.insights-content p {
+  margin: 4px 0;
+  font-size: 13px;
+}
+
+.local-note {
+  margin-top: 12px;
+  color: #5f6368;
+  text-align: center;
+}
